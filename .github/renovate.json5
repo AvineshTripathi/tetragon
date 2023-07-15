@@ -1,7 +1,7 @@
 {
   // self-hosted configuration
   "username": "cilium-renovate[bot]",
-  "repositories": ["cilium/tetragon"],
+  "repositories": ["AvineshTripathi/tetragon"],
   "allowedPostUpgradeCommands": [
     "^/tmp/install-buildx$", 
     "^make codegen$", 
