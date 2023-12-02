@@ -8,7 +8,7 @@ require (
 	github.com/cilium/little-vm-helper v0.0.7
 	github.com/cilium/lumberjack/v2 v2.3.0
 	github.com/cilium/tetragon/api v0.0.0-00010101000000-000000000000
-	github.com/cilium/tetragon/pkg/k8s v0.0.0-00010101000000-000000000000
+	github.com/cilium/tetragon/pkg/k8s v0.0.0-20231202001034-f71e38a788c7
 	github.com/containerd/cgroups v1.1.0
 	github.com/containerd/containerd v1.7.2
 	github.com/fatih/color v1.15.0
