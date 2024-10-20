@@ -5,7 +5,7 @@ WORKDIR tmp
 RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-${TARGETARCH}.tar.gz | tar xz
 
 # Hugo extended is dynamically linked
-FROM golang:1.20.2@sha256:1724dc3128e2e63f0bc3e055fe4fa478d67f6da4bd95c0e69690f6435f658804
+FROM golang:1.23.2@sha256:ad5c126b5cf501a8caef751a243bb717ec204ab1aa56dc41dc11be089fafcb4f
 # create an unprivileged user to run hugo
 RUN mkdir -p /var/hugo && \
     addgroup --system --gid 1000 hugo && \
